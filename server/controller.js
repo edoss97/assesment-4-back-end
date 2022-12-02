@@ -1,6 +1,7 @@
 let fortuneList = ['A faithful friend is a strong defense.','A dubious friend may be an enemy in camouflage','A fresh start will put you on your way','A friend asks only for your time not your money','A golden egg of opportunity falls into your lap this month']
 
 
+
 module.exports = {
 
     getCompliment: (req, res) => {

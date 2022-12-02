@@ -7,7 +7,9 @@ app.use(cors());
 
 app.use(express.json());
 
-const { getCompliment, getFortuneList, deleteFortune, addFortune } = require('./controller');
+c
+
+onst { getCompliment, getFortuneList, deleteFortune, addFortune } = require('./controller');
 
 
 app.get('/api/compliment', getCompliment);

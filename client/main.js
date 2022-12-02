@@ -33,6 +33,8 @@ const createList = arr => {
         list.appendChild(listItem)
     })
 }
+
+
 const getFortuneList = () => {
     axios.get('http://localhost:4000/api/compliment')
         .then(response => {
